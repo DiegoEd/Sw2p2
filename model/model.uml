@@ -23,7 +23,7 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_86xZh6prEeaGbp23C_zkpg" name="title" visibility="public" type="_agg3ALQwEeOLlbB2YLI0iw">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_86xZiKprEeaGbp23C_zkpg" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_86xZiaprEeaGbp23C_zkpg" value="1"/>
-                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_86xZiqprEeaGbp23C_zkpg" value="WCMF DEFAULT APPLICATION"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_86xZiqprEeaGbp23C_zkpg" value="Consultorio Dental SW"/>
                 </ownedAttribute>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_86xZi6prEeaGbp23C_zkpg" name="color" visibility="public" type="_agg3ALQwEeOLlbB2YLI0iw">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_86xZjKprEeaGbp23C_zkpg" value="1"/>
@@ -1682,7 +1682,7 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_fcwjkavwEeaQUopA1XIUeQ" name="title" visibility="public" type="_agg3ALQwEeOLlbB2YLI0iw">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fcwjkqvwEeaQUopA1XIUeQ" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fcwjk6vwEeaQUopA1XIUeQ" value="1"/>
-                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_fcwjlKvwEeaQUopA1XIUeQ" value="WCMF TEST MODEL"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_fcwjlKvwEeaQUopA1XIUeQ" value="Consultorio Dental SW"/>
                 </ownedAttribute>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_fcwjmavwEeaQUopA1XIUeQ" name="rootTypes" visibility="public" type="_agg3ALQwEeOLlbB2YLI0iw">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fcwjmqvwEeaQUopA1XIUeQ" value="1"/>
@@ -2000,11 +2000,11 @@
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_j3XCkEuREeekaoSzJ9YKtw" name="Paciente">
                 <generalization xmi:type="uml:Generalization" xmi:id="_MTXXUEuSEeekaoSzJ9YKtw" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="__5BWgEuREeekaoSzJ9YKtw" name="ci" type="_dbezULQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_OfDLwEuSEeekaoSzJ9YKtw" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_wrEJIEuSEeekaoSzJ9YKtw" name="apellido" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_8JdfEEuSEeekaoSzJ9YKtw" name="fecha_nacimiento" type="_X7HiELQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_IEGsIEuTEeekaoSzJ9YKtw" name="telefono" type="_dbezULQwEeOLlbB2YLI0iw"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="__5BWgEuREeekaoSzJ9YKtw" name="ci" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_OfDLwEuSEeekaoSzJ9YKtw" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_wrEJIEuSEeekaoSzJ9YKtw" name="apellido" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_8JdfEEuSEeekaoSzJ9YKtw" name="fecha_nacimiento" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_IEGsIEuTEeekaoSzJ9YKtw" name="telefono" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_eDIXUEvXEeeTOubf2vVFTA" name="consulta" type="_kW2KYEvSEeeCp68yfXG-2g" association="_eDEs8EvXEeeTOubf2vVFTA">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g_YGAEvXEeeTOubf2vVFTA" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g_cXcEvXEeeTOubf2vVFTA" value="*"/>
@@ -2013,28 +2013,28 @@
               <packagedElement xmi:type="uml:Class" xmi:id="_s9A_gEuREeekaoSzJ9YKtw" name="Doctor">
                 <generalization xmi:type="uml:Generalization" xmi:id="_lUGwkEuVEeekaoSzJ9YKtw" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_UlnE4EuTEeekaoSzJ9YKtw" name="ci" type="_dbezULQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_d6tWkEuUEeekaoSzJ9YKtw" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_q2G2AEuUEeekaoSzJ9YKtw" name="apellido" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_x2H8IEuUEeekaoSzJ9YKtw" name="fecha_nacimiento" type="_X7HiELQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_5dFtgEuUEeekaoSzJ9YKtw" name="telefono" type="_dbezULQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_MelogEuVEeekaoSzJ9YKtw" name="fecha_inicio" type="_X7HiELQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_Xl8-gEuVEeekaoSzJ9YKtw" name="especialidad" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_fQ54AEuVEeekaoSzJ9YKtw" name="sueldo" type="_agg3ALQwEeOLlbB2YLI0iw"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_d6tWkEuUEeekaoSzJ9YKtw" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_q2G2AEuUEeekaoSzJ9YKtw" name="apellido" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_x2H8IEuUEeekaoSzJ9YKtw" name="fecha_nacimiento" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_5dFtgEuUEeekaoSzJ9YKtw" name="telefono" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_MelogEuVEeekaoSzJ9YKtw" name="fecha_inicio" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_Xl8-gEuVEeekaoSzJ9YKtw" name="especialidad" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_fQ54AEuVEeekaoSzJ9YKtw" name="sueldo" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_Azf8kEukEeeaCeOSiw_VMQ" name="Tratamiento">
                 <generalization xmi:type="uml:Generalization" xmi:id="_lwnIkEukEeeaCeOSiw_VMQ" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_Gqj2kEukEeeaCeOSiw_VMQ" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_POb8IEukEeeaCeOSiw_VMQ" name="precio" type="_agg3ALQwEeOLlbB2YLI0iw"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_Gqj2kEukEeeaCeOSiw_VMQ" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_POb8IEukEeeaCeOSiw_VMQ" name="precio" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_kW2KYEvSEeeCp68yfXG-2g" name="Consulta">
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_CTfkUEvTEeeCp68yfXG-2g" name="hora" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_JV-IkEvTEeeCp68yfXG-2g" name="fecha" type="_X7HiELQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_p2KA0EvUEeeCp68yfXG-2g" name="nombre_tratamiento" type="_agg3ALQwEeOLlbB2YLI0iw"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_CTfkUEvTEeeCp68yfXG-2g" name="hora" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_JV-IkEvTEeeCp68yfXG-2g" name="fecha" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_p2KA0EvUEeeCp68yfXG-2g" name="nombre_tratamiento" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_vQVKgkvUEeeCp68yfXG-2g" name="tratamiento" type="_Azf8kEukEeeaCeOSiw_VMQ" association="_vQTVUEvUEeeCp68yfXG-2g"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_RpaTgEvVEeeTOubf2vVFTA" name="doctor" type="_s9A_gEuREeekaoSzJ9YKtw" association="_RpPUYEvVEeeTOubf2vVFTA"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_YxHWAEvVEeeTOubf2vVFTA" name="ci_doctor" type="_dbezULQwEeOLlbB2YLI0iw"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_YxHWAEvVEeeTOubf2vVFTA" name="ci_doctor" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_eDHwQUvXEeeTOubf2vVFTA" name="paciente" type="_j3XCkEuREeekaoSzJ9YKtw" association="_eDEs8EvXEeeTOubf2vVFTA"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_j7QoUEvXEeeTOubf2vVFTA" name="ci_paciente" type="_dbezULQwEeOLlbB2YLI0iw"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_j7QoUEvXEeeTOubf2vVFTA" name="ci_paciente" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_Zyns8EvuEeeUPZRc2fwGdQ" name="diagnostico" type="_lJOqwEvsEeeUPZRc2fwGdQ" aggregation="composite" association="_ZyfKEEvuEeeUPZRc2fwGdQ"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_vQTVUEvUEeeCp68yfXG-2g" memberEnd="_vQVKgkvUEeeCp68yfXG-2g _vQVKg0vUEeeCp68yfXG-2g">
@@ -2061,9 +2061,9 @@
                 </eAnnotations>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_lJOqwEvsEeeUPZRc2fwGdQ" name="Diagnostico">
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_fqU8oEvtEeeUPZRc2fwGdQ" name="analisis" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_2rUzEEvtEeeUPZRc2fwGdQ" name="recomendacion" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_L3lVcEvuEeeUPZRc2fwGdQ" name="hora_consulta" type="_agg3ALQwEeOLlbB2YLI0iw"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_fqU8oEvtEeeUPZRc2fwGdQ" name="analisis" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_2rUzEEvtEeeUPZRc2fwGdQ" name="recomendacion" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_L3lVcEvuEeeUPZRc2fwGdQ" name="hora_consulta" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_ZyoUAEvuEeeUPZRc2fwGdQ" name="consulta" type="_kW2KYEvSEeeCp68yfXG-2g" association="_ZyfKEEvuEeeUPZRc2fwGdQ"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_1GXK8EvuEeeUPZRc2fwGdQ" name="fecha_consulta" type="_X7HiELQwEeOLlbB2YLI0iw"/>
               </packagedElement>

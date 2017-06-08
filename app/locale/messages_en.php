@@ -204,7 +204,7 @@ $messages_en['language'] = '';
 // file(s): src/model/wcmf/_base/LanguageRDBMapper.php
 $messages_en['Language [Pl.]'] = 'Languages';
 // file(s): public/js/ui/home/template/HomePage.html
-$messages_en['Last Updates'] = '';
+$messages_en['Last Updates'] = 'Últimas actualizaciones';
 // file(s): public/js/ui/home/HomePage.js, src/model/_base/AuthorRDBMapper.php, src/model/_base/BookRDBMapper.php, src/model/_base/ChapterRDBMapper.php, src/model/_base/ImageRDBMapper.php, src/model/_base/PublisherRDBMapper.php
 $messages_en['last_editor'] = 'último editor';
 // file(s): public/js/ui/data/EntityListPage.js
@@ -370,7 +370,7 @@ $messages_en['Select <em>%0%</em> objects, you want to link to <em>%1%</em>'] = 
 // file(s): public/js/ui/admin/AdminPage.js, public/js/ui/settings/SettingsPage.js, public/js/ui/settings/template/SettingsPage.html, public/js/ui/_include/widget/template/NavigationWidget.html
 $messages_en['Settings'] = '';
 // file(s): public/js/ui/login/template/LoginPage.html, public/js/ui/_include/widget/LoginDlgWidget.js
-$messages_en['Sign in'] = '';
+$messages_en['Sign in'] = 'Registrarse';
 // file(s): public/js/ui/data/widget/EntityListWidget.js
 $messages_en['Skipped rows'] = '';
 // file(s): src/model/_base/ChapterRDBMapper.php
@@ -520,7 +520,7 @@ $messages_en['User [Pl.]'] = 'Users';
 // file(s): src/model/wcmf/_base/UserConfigRDBMapper.php
 $messages_en['value'] = '';
 // file(s): public/js/ui/home/template/HomePage.html
-$messages_en['Welcome'] = 'Bienvenidos a la Clínica Dental SW';
+$messages_en['Welcome'] = 'Bienvenidos al Consultorio Dental SW';
 // file(s): src/model/_base/BookRDBMapper.php
 $messages_en['year'] = '';
 // file(s): public/js/ui/_include/widget/template/LoginDlgWidget.html
